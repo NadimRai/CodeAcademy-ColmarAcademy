@@ -1,4 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+html{
+font-family: Arial, sans-serif;
+}
+
+h1{
+font-size: 42px;
+font-weight: 900;
+color: rgb(71, 71, 71)
+}
 
 /** Header **/
 header{
@@ -36,5 +47,48 @@ nav span{
 display: inline-block;
 padding-right: 16px;
 }
-
 /** End of Header **/
+
+/** Jumbotron **/
+.jumbotron{
+    background: rgb(228, 227, 227);
+    display: flex;
+    align-items: center;
+}
+
+.jumbotron .image-container{
+    padding: 32px 24px;
+    flex: 3;
+}
+
+.image-container img{
+    display: block;
+    width: 100%;
+}
+
+.jumbotron .text-container{
+   flex: 2;
+   flex-direction: column;
+   align-items: flex-start;
+   padding:0 16px;
+}
+.text-container-style{
+    width:75%;
+    line-height: 1.2;
+}
+
+.text-container-style p{
+    padding-top: 20px;
+    font-size: 18px;
+    color: rgb(10, 10, 10);
+    word-spacing: 10px;
+}
+
+.text-container-style .button{
+    background: rgb(71, 71, 71);
+    color:#fff;
+    text-align: center;
+    margin-top:60px;
+    padding-bottom: 15px;
+    /* border: 1px solid red; */
+}
