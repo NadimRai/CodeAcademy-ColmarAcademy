@@ -152,23 +152,26 @@ padding:16px 16px 16px 16px;
 width: 65%;
 padding-top: 50px;
 }
+
 .info-content h3{
-    letter-spacing: 1px;
-    font-weight: 600;
-    font-family: 'Lato', sans-serif;
-    font-size:1.2em;
+letter-spacing: 1px;
+font-weight: 600;
+font-family: 'Lato', sans-serif;
+font-size:1.2em;
     
 }
+
 .info-content p {
-    line-height:1.6; 
-    padding:8px 0;
-    
+line-height:1.6; 
+padding:8px 0;
 }
+
+.info-content a{
+text-decoration: none;
+}
+
 .info-3{
 background: rgb(236, 235, 235);
 }
-
-
-
 /** End of RIGHT column **/
 /** End of Information **/
