@@ -175,3 +175,54 @@ background: rgb(236, 235, 235);
 }
 /** End of RIGHT column **/
 /** End of Information **/
+
+/** Start Learning Section **/
+.learning{
+background: rgb(228, 227, 227);
+display: flex;
+flex-direction: column;
+}
+
+.learning h1{
+    text-align: center;
+    margin: 32px 0;
+}
+
+.courses{
+    display: flex;
+    margin:0 72px 32px;
+}
+
+.course{
+    padding:0 32px 32px 0;
+    max-width: 385px;
+}
+
+.course-info{
+    background: #fff;
+    padding: 0 16px 20px 16px;
+}
+
+.course-info h3{
+    font-size: 1.2em;
+    padding-top: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;;
+}
+
+.course-info h4, .course-info p{
+    color: rgb(187, 187, 187);
+}
+
+.course-info h4{
+    text-transform: uppercase;
+    padding:8px 0;
+}
+
+.course-info p{
+    line-height: 1.4;
+    letter-spacing: 1.2px;
+}
+
+
+/** End of Learning Section **/
